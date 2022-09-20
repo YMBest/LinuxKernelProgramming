@@ -14,5 +14,11 @@ tar -zxf ~/Downloads/lxr-2.3.6.tgz
 mv lxr-2.3.6 lxr
 cd lxr 
 mkdir linux-source
-tar zxf ~/Downloads/linux 5.19.9.tar.xz
+cd linux-source
+tar zxf ~/Downloads/linux-6.0-rc6.tar.xz
+cd ..
+mv linux-6.0-rc6 V6.0-rc6
+
+
+
 
